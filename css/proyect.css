@@ -1,0 +1,91 @@
+body{
+  font-family: 'Kalam', sans-serif;
+  margin: auto;
+  height: 110px;
+  width: 1000px;
+  background-image: url(../images/fondo2.jpg);
+  background-size: 100%;
+
+}
+
+.background{
+  background-size: cover;
+  margin-left:60px;
+  margin-top: 40px;
+
+}
+.portada{
+  background-image: url(../images/tablaM.jpg);
+
+  margin-top: 20px;
+  height: 450px;
+}
+.contenedor{
+  margin: auto;
+  width: 1000px;
+  position: relative;
+}
+.header{
+  position: relative;
+  padding:10px;
+  margin-bottom: 0;
+  background-image: url(../images/madera.jpg);
+  width: 100%;
+  margin-top: 10px;
+  height: 90px;
+  padding-top:0px;
+}
+.menu{
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+.menu strong{
+  font-family: 'Kalam',sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-bottom:100px;
+}
+.menu li {
+   display: inline-block;
+   margin-bottom: 0;
+   margin-left: 30px;
+   top: 100;
+}
+.logotipo{
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: -9px;
+  margin-top: 0px;
+  top: 10px;
+}
+.item{
+  display: inline-block;
+  align-items:flex-start;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  margin-left:20px;
+
+}
+.blog-items{
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 50px;
+
+
+}
+
+section{
+    background-image: url(../images/tablaM.jpg);
+    background-size: 30px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.descripcion h2{
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+}
